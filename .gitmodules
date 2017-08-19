@@ -1,0 +1,3 @@
+[submodule "apps/primes"]
+	path = apps/primes
+	url = https://github.com/ewildgoose/elixir-primes.git
