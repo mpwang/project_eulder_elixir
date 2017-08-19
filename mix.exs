@@ -15,6 +15,6 @@ defmodule ProjectEulderElixir.Mixfile do
   #
   # Run "mix help deps" for examples and options.
   defp deps do
-    [{:exfmt, "~> 0.4.0", only: :dev}]
+    []
   end
 end
