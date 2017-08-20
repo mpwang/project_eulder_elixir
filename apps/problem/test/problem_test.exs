@@ -18,6 +18,7 @@ defmodule ProblemTest do
   # doctest P16
   # doctest P17
   # doctest P18
+  # doctest P20
   # doctest P25
   # doctest P29
   # doctest P30
