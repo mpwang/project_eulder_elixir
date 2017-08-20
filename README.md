@@ -12,7 +12,7 @@ to install dependencies
 ## apps/problem
 solutions
 
-add `test/problem_test.exs` and run
+edit `test/problem_test.exs` and run
 
     mix test
 
