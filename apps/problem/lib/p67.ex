@@ -5,6 +5,7 @@ defmodule P67 do
   7273
   """
   def solve() do
+    size = get_size()
     cache = process(size, %{})
     cache = process(size, cache)
     cache[{0, 0}]
@@ -37,10 +38,10 @@ defmodule P67 do
   end
 
   @doc """
-  iex> P67.size
+  iex> P67.get_size()
   100
   """
-  def size() do
+  def get_size() do
     get_triangle() |> List.last |> length
   end
 
