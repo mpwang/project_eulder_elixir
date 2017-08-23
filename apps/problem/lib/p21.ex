@@ -15,9 +15,7 @@ defmodule P21 do
          {i, j}
       end
       |> Enum.reduce(ds, fn {i, j}, acc ->
-        Map.update(acc, i * j, 1, fn val ->
-          val + i + j
-        end)
+        Map.update(acc, i * j, 1, fn val -> val + i + j end)
       end)
 
     for i <- 2..limit, ds[i] < i && ds[ds[i]] == i do
